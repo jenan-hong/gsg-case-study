@@ -1,34 +1,18 @@
-# Project Title
+# Restore User Journey
 
 ## Description
 
 This project includes a JavaScript function `restoreUserJourney` designed to reconstruct travel paths from a set of tickets, each indicating a journey from a source city to a destination city.
 
-## Installation
+## Project setup
+```
+npm install
+```
 
-To get started with this project, you need to have Node.js installed on your machine.
-
-**Install dependencies:**
-    - This project uses Jest for testing. Install Jest and any other dependencies by running:
-      ```bash
-      npm install
-      ```
-## Testing
-
-To run the tests for the `restoreUserJourney` function:
-
-1. **Generate test data for large test cases (optional):**
-    - If you need to generate test data (e.g., for 100,000 hops), run:
-      ```bash
-      node generateTestData.js
-      ```
-    - This will create a `testData.json` file used in the tests.
-
-2. **Run tests:**
-    - Execute the test suite using Jest:
-      ```bash
-      npm test
-      ```
+## Run tests
+```
+npm test
+```
 
 ## Function Description
 
